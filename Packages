@@ -1,14 +1,17 @@
-Package: (com.yourname.packagename)
-Name: (Tweak Name) 
-Version: (Version Number)
-Size: (Size in Bytes)
+Package: xyz.royalapps.jellyfish
+Version: 1.0.2
 Architecture: iphoneos-arm
-Description: (Tweak Description)
-Maintainer: (Name) <email@provider.com>
-Author: (Name) <email@provider.com>
-Section: (Cydia Section)
-MD5sum:
-SHA1sum:
-SHA256sum:
-Filename: debs//(Tweak Name).deb
+Maintainer: Justin Proulx
+Installed-Size: 92
+Depends: mobilesubstrate
+Conflicts: applebetas.ios.tweak.time11
+Filename: ./debs/xyz.royalapps.jellyfish.deb
+Size: 13792
+MD5sum: 2af9cd34e3a3f6627e92aecf98118fa9
+SHA1: ce5c4d6b647009cdfb9debbf762835c881bfc440
+SHA256: 7ad026ee516566535b200c45d8eba9c75b6e601df469a0ae6b4aae5190fdd4da
+Section: Tweaks
+Description: Natural, Simple, Beautiful: Redesign your Lock screen with Jellyfish.
+Author: Justin Proulx and AppleBetas
+Name: Jellyfish
 
