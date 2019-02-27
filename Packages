@@ -1,3 +1,61 @@
+Package: com.golddavid.colorbanners2
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 964
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
+Conflicts: com.golddavid.colorbanners, com.golddavid.colorbanners-cb
+Filename: ./debs/com.golddavid.colorbanners2.deb
+Size: 656580
+MD5sum: 91bef6b7d7a4c93cc1500afbafbee182
+SHA1: a055f2695e2c1a636bed1ddac16f3fc3da9b6d88
+SHA256: bfcaa54f9fcdd57df11bf04596db23e97b3f7844bbcd42e4e47145cb863557bf
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=colorbanners2Dp
+Description: Color your notifications
+Tag: cydia::commercial, purpose::extension, compatible::ios10, compatible::ios11
+Author: David Goldman <help@golddavid.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=colorbanners2Dp
+Dev: goldmandavid0
+Icon: file:///Library/PreferenceBundles/ColorBanners2Prefs.bundle/ColorBanners@2x.png
+Name: ColorBanners 2
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.vitataf.homegesture
+Version: 2.1.0
+Architecture: iphoneos-arm
+Maintainer: MidnightChips/PINPAL
+Installed-Size: 2936
+Pre-Depends: com.spark.libsparkapplist
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker, org.thebigboss.libcolorpicker
+Filename: ./debs/com.vitataf.homegesture.deb
+Size: 2249680
+MD5sum: 02a36027a61cdfb1bd3148ebbac9434e
+SHA1: 35295f4cbc2f7b4b5c35f328d90114dc91130e44
+SHA256: 37a345f166a489d5c2de29eff605cfc4c18d59b2c138ba5a0b100db355421c4f
+Section: Tweaks
+Description: Enable iPhone X home gesture on other devices.
+Author: VitaTaf/MidnightChips/PINPAL
+Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
+Name: HomeGesture
+
+Package: me.gmoran.eclipsex
+Version: 5.1.6
+Architecture: iphoneos-arm
+Maintainer: Guillermo Morán (fr0st)
+Installed-Size: 1204
+Depends: mobilesubstrate, preferenceloader, applist, com.creaturesurvive.libcscolorpicker, firmware (>= 11.0)
+Filename: ./debs/me.gmoran.eclipsex.deb
+Size: 613450
+MD5sum: 250e51f7c2eefc288865b7e77af80584
+SHA1: e33962b7e53b904bb427407dee12ddfe40f72842
+SHA256: 1fcf00d4ad9f1c7146f22ada2c62a42d68c265dc895fc6362801725a5f7a7b1b
+Section: Tweaks
+Description: Night Mode (and more!) for all your apps!
+Author: Guillermo Morán (fr0st)
+Depiction: http://gmoran.me/eclipse_x_repo.html
+Name: Eclipse X (iOS 11)
+
 Package: xyz.royalapps.jellyfish
 Version: 1.0.2
 Architecture: iphoneos-arm
