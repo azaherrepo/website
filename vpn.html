@@ -1,27 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Ayman's Server</title>
+<title>
+VPN Server
+</title>
+
 <style type="text/css">
-body h1 {
-	text-align: center;
-}
 body,td,th {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
-body p {
-	text-align: center;
-	}
-body a {
+body h1 {
 	text-align: center;
 	color: #000000;
 }
-tbody tr td {
-	text-align: center;
-}
-/* Add a black background color to the top navigation */
+
+	.responsive {
+		width: 100%;
+		height: auto;
+		max-width: 550px;
+	}
+	/* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -54,22 +53,25 @@ tbody tr td {
 .topnav .icon {
     display: none;
 }
-	</style>
-	
-</head>
+</style>
 
 <body style="background-image:url(/images/background.png);">
-	<h1>Welcome to Ayman's Server</h1>
-	<p>This page has been designed to help you navigate through this server and reach the page that you need to.<br>This server currently servers two purposes, it is a VPN server, it is also a media server you can access both from this website.</p>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<h1>How to connect to this VPN Server</h1>
 <div class="topnav" id="myTopnav">
-  <a class="active" href="#home">Home</a>
-  <a href="vpn.html">VPN Server</a>
-  <a href="http://138.197.131.29:32400/web/index.html">Media Server</a>
+  <a href="index.html">Home</a>
+  <a class="active" href="vpn.html">VPN Server</a>
+  <a href="ios.html">iOS</a>
+	<a href="android.html">Android</a>
+	<a href="windows.html">Windows</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
+<p>This website has been designed to give step by step instructions on how to connect to this OpenVPN Server from iOS, Android and Windows devices.<br>Click on the corresponding link to what device you have.
+</p>
+
+<img src="images/openvpn.jpg" class="responsive">
+
 </body>
+
 </html>
