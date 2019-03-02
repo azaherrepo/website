@@ -58,6 +58,22 @@ Compatible_max: :12.1.2
 Compatible_min: :11.0
 Name: Wiivamp
 
+Package: me.gmoran.eclipsex-f
+Version: 5.1.8
+Architecture: iphoneos-arm
+Maintainer: Guillermo Morán (fr0st)
+Depends: mobilesubstrate, preferenceloader, applist, com.creaturesurvive.libcscolorpicker, firmware (>= 11.0)
+Filename: ./debs/me.gmoran.eclipsex.deb
+Size: 580918
+MD5sum: 1d72c620f3aae60ae17d37f4e354d137
+SHA1: 01ae940c239dbbb0d2481ae8b29a011d41dd52ef
+SHA256: cee746e8891009e15d2fc265fda94b6c158ee167a7201cc78c1f910e9deccc44
+Section: Tweaks
+Description: Night Mode (and more!) for all your apps!
+Author: Guillermo Morán (fr0st)
+Depiction: http://repo.xarold.com/depiction.php?id=eclipsex
+Name: Eclipse X (iOS 11)
+
 Package: com.vitataf.homegesture-f
 Version: 2.1.0
 Architecture: iphoneos-arm
@@ -75,23 +91,6 @@ Description: Enable iPhone X home gesture on other devices.
 Author: VitaTaf/MidnightChips/PINPAL
 Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
 Name: HomeGesture
-
-Package: me.gmoran.eclipsex-f
-Version: 5.1.6
-Architecture: iphoneos-arm
-Maintainer: Guillermo Morán (fr0st)
-Installed-Size: 1204
-Depends: mobilesubstrate, preferenceloader, applist, com.creaturesurvive.libcscolorpicker, firmware (>= 11.0)
-Filename: ./debs/me.gmoran.eclipsex.deb
-Size: 613450
-MD5sum: 250e51f7c2eefc288865b7e77af80584
-SHA1: e33962b7e53b904bb427407dee12ddfe40f72842
-SHA256: 1fcf00d4ad9f1c7146f22ada2c62a42d68c265dc895fc6362801725a5f7a7b1b
-Section: Tweaks
-Description: Night Mode (and more!) for all your apps!
-Author: Guillermo Morán (fr0st)
-Depiction: http://gmoran.me/eclipse_x_repo.html
-Name: Eclipse X (iOS 11)
 
 Package: xyz.royalapps.jellyfish-f
 Version: 1.0.3
