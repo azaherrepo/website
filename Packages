@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Installed-Size: 1540
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3), preferenceloader (>= 2.2.2), cydia (>= 1.1.1), com.rpetrich.rocketbootstrap (>= 1.0.3) | firmware (<< 7.0)
 Conflicts: actionmenu-pluspack (<< 1.2)
-Filename: ./debs/actionmenu_1.4.1.deb
+Filename: ./debs/actionmenu.deb
 Size: 293946
 MD5sum: 810b538c5685fa615e2bab0031f9c8d3
 SHA1: 6797a9c54b0b5d6b2c491c431de384fc31184533
@@ -39,6 +39,24 @@ Dev: goldmandavid0
 Icon: file:///Library/PreferenceBundles/ColorBanners2Prefs.bundle/ColorBanners@2x.png
 Name: ColorBanners 2
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.jacc.wiivamp
+Version: 3.1.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: jacc
+Installed-Size: 27612
+Depends: mobilesubstrate, com.spark.libsparkapplist, ws.hbang.common (>= 1.11)
+Filename: ./debs/com.jacc.wiivamp.deb
+Size: 27699988
+MD5sum: 91fa89958a86ce5186feb5064f4803cf
+SHA1: e3ff753206729066bf1777aa3bb861552fcbb7cd
+SHA256: bf8a74126eb9fba08230e2d9cfb9acce297d177a165f142113b0f06b47bad349
+Section: Tweaks
+Description: Play your favorite Wii songs inside any of your favorite apps!
+Author: jacc
+Compatible_max: :12.1.2
+Compatible_min: :11.0
+Name: Wiivamp
 
 Package: com.vitataf.homegesture
 Version: 2.1.0
