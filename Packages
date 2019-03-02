@@ -20,7 +20,7 @@ Website: http://rpetri.ch/cydia/actionmenu/
 Package: com.golddavid.colorbanners2
 Version: 1.1.1
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
+Maintainer: Me
 Installed-Size: 964
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
 Conflicts: com.golddavid.colorbanners, com.golddavid.colorbanners-cb
@@ -37,8 +37,8 @@ Author: David Goldman <help@golddavid.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=colorbanners2Dp
 Dev: goldmandavid0
 Icon: file:///Library/PreferenceBundles/ColorBanners2Prefs.bundle/ColorBanners@2x.png
-Name: ColorBanners 2
-Sponsor: thebigboss.org <http://thebigboss.org>
+Name: ColorBanners 2 - Test
+Sponsor: Me
 
 Package: com.jacc.wiivamp
 Version: 3.1.0-1+debug
