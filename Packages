@@ -1,23 +1,4 @@
-Package: actionmenu-f
-Version: 1.4.1
-Architecture: iphoneos-arm
-Installed-Size: 1540
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3), preferenceloader (>= 2.2.2), cydia (>= 1.1.1), com.rpetrich.rocketbootstrap (>= 1.0.3) | firmware (<< 7.0)
-Conflicts: actionmenu-pluspack (<< 1.2)
-Filename: ./debs/actionmenu.deb
-Size: 293946
-MD5sum: 810b538c5685fa615e2bab0031f9c8d3
-SHA1: 6797a9c54b0b5d6b2c491c431de384fc31184533
-SHA256: b5c8f512868eadcc1363bcbfcec5a361422669f51f129b607a2065967fb8f64c
-Section: System
-Priority: optional
-Description: Adds actions to the action menu
-Author: Ryan Petrich <rpetrich@gmail.com>
-Depiction: http://rpetri.ch/cydia/actionmenu/
-Name: Action Menu
-Website: http://rpetri.ch/cydia/actionmenu/
-
-Package: com.golddavid.colorbanners2-f
+Package: ayman.com.golddavid.colorbanners2
 Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -40,29 +21,11 @@ Icon: file:///Library/PreferenceBundles/ColorBanners2Prefs.bundle/ColorBanners@2
 Name: ColorBanners 2
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.jacc.wiivamp-f
-Version: 3.1.0-1+debug
-Architecture: iphoneos-arm
-Maintainer: jacc
-Installed-Size: 27612
-Depends: mobilesubstrate, com.spark.libsparkapplist, ws.hbang.common (>= 1.11)
-Filename: ./debs/com.jacc.wiivamp.deb
-Size: 27699988
-MD5sum: 91fa89958a86ce5186feb5064f4803cf
-SHA1: e3ff753206729066bf1777aa3bb861552fcbb7cd
-SHA256: bf8a74126eb9fba08230e2d9cfb9acce297d177a165f142113b0f06b47bad349
-Section: Tweaks
-Description: Play your favorite Wii songs inside any of your favorite apps!
-Author: jacc
-Compatible_max: :12.1.2
-Compatible_min: :11.0
-Name: Wiivamp
-
-Package: me.gmoran.eclipsex-f
+Package: ayman.com.eclipsex
 Version: 5.1.8
 Architecture: iphoneos-arm
 Maintainer: Guillermo Morán (fr0st)
-Depends: mobilesubstrate, preferenceloader, applist, com.creaturesurvive.libcscolorpicker, firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, applist, com.creaturesurvive.libcscolorpicker, firmware (>= 11.0), firmware (< 12.0)
 Filename: ./debs/me.gmoran.eclipsex.deb
 Size: 580918
 MD5sum: 1d72c620f3aae60ae17d37f4e354d137
@@ -74,25 +37,24 @@ Author: Guillermo Morán (fr0st)
 Depiction: http://repo.xarold.com/depiction.php?id=eclipsex
 Name: Eclipse X (iOS 11)
 
-Package: com.vitataf.homegesture-f
-Version: 2.1.0
+Package: ayman.com.noctis12
+Version: 1.2.5.1
 Architecture: iphoneos-arm
-Maintainer: MidnightChips/PINPAL
-Installed-Size: 2936
-Pre-Depends: com.spark.libsparkapplist
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.creaturecoding.libcspreferences, com.creaturesurvive.libcscolorpicker, org.thebigboss.libcolorpicker
-Filename: ./debs/com.vitataf.homegesture.deb
-Size: 2249680
-MD5sum: 02a36027a61cdfb1bd3148ebbac9434e
-SHA1: 35295f4cbc2f7b4b5c35f328d90114dc91130e44
-SHA256: 37a345f166a489d5c2de29eff605cfc4c18d59b2c138ba5a0b100db355421c4f
+Maintainer: LaughingQuoll
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.laughingquoll.prefixui, com.repo.xarold.com.libsparkapplist | com.spark.libsparkapplist, com.opa334.ccsupport
+Conflicts: com.laughingquoll.noctisxi, com.repo.xarold.com.noctisxi
+Filename: ./debs/com.noctis12.deb
+Size: 144398
+MD5sum: 4165ab47370c4c0c98b8708853805ec4
+SHA1: 43c2c7756f6297e2bee343263b4bcbd590a62e44
+SHA256: 1c95ca7034c4dd8fe33cbec5db33e899a82bddf6641e69b9003a38f7b5ab2c93
 Section: Tweaks
-Description: Enable iPhone X home gesture on other devices.
-Author: VitaTaf/MidnightChips/PINPAL
-Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
-Name: HomeGesture
+Description: Noctis12 - System Wide Dark Mode for iOS
+Author: LaughingQuoll
+Depiction: http://repo.xarold.com/depiction.php?id=noctis12
+Name: Noctis12
 
-Package: xyz.royalapps.jellyfish-f
+Package: ayman.xyz.royalapps.jellyfish
 Version: 1.0.3
 Architecture: iphoneos-arm
 Maintainer: Justin Proulx
