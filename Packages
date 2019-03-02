@@ -76,17 +76,17 @@ Depiction: http://gmoran.me/eclipse_x_repo.html
 Name: Eclipse X (iOS 11)
 
 Package: xyz.royalapps.jellyfish
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm
 Maintainer: Justin Proulx
 Installed-Size: 92
 Depends: mobilesubstrate
 Conflicts: applebetas.ios.tweak.time11
 Filename: ./debs/xyz.royalapps.jellyfish.deb
-Size: 13792
-MD5sum: 2af9cd34e3a3f6627e92aecf98118fa9
-SHA1: ce5c4d6b647009cdfb9debbf762835c881bfc440
-SHA256: 7ad026ee516566535b200c45d8eba9c75b6e601df469a0ae6b4aae5190fdd4da
+Size: 14174
+MD5sum: 9eefb33000cc6d60521456e037ed24f2
+SHA1: 78603345a01bca3b56017c649659d84e5e28d93d
+SHA256: 43ab44c22a8e4ee16f4e52631ecce2904b8a6179b71d1fc2ab57c489cd5cd178
 Section: Tweaks
 Description: Natural, Simple, Beautiful: Redesign your Lock screen with Jellyfish.
 Author: Justin Proulx and AppleBetas
