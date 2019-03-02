@@ -32,7 +32,7 @@ SHA256: bfcaa54f9fcdd57df11bf04596db23e97b3f7844bbcd42e4e47145cb863557bf
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=colorbanners2Dp
 Description: Color your notifications
-Tag: cydia::commercial, purpose::extension, compatible::ios10, compatible::ios11
+Tag: purpose::extension, compatible::ios10, compatible::ios11
 Author: David Goldman <help@golddavid.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=colorbanners2Dp
 Dev: goldmandavid0
