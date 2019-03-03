@@ -21,26 +21,10 @@ Icon: file:///Library/PreferenceBundles/ColorBanners2Prefs.bundle/ColorBanners@2
 Name: ColorBanners 2
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: ayman.com.eclipsex
-Version: 5.1.8
-Architecture: iphoneos-arm
-Maintainer: Guillermo Morán (fr0st)
-Depends: mobilesubstrate, preferenceloader, applist, com.creaturesurvive.libcscolorpicker, firmware (>= 11.0), firmware (< 12.0)
-Filename: ./debs/me.gmoran.eclipsex.deb
-Size: 580918
-MD5sum: 1d72c620f3aae60ae17d37f4e354d137
-SHA1: 01ae940c239dbbb0d2481ae8b29a011d41dd52ef
-SHA256: cee746e8891009e15d2fc265fda94b6c158ee167a7201cc78c1f910e9deccc44
-Section: Tweaks
-Description: Night Mode (and more!) for all your apps!
-Author: Guillermo Morán (fr0st)
-Depiction: http://repo.xarold.com/depiction.php?id=eclipsex
-Name: Eclipse X (iOS 11)
-
-Package: ayman.com.noctis12
+Package: com.repo.xarold.com.noctis12
 Version: 1.2.5.1
 Architecture: iphoneos-arm
-Maintainer: LaughingQuoll
+Maintainer: Xarold <contact@xarold.com>
 Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.laughingquoll.prefixui, com.repo.xarold.com.libsparkapplist | com.spark.libsparkapplist, com.opa334.ccsupport
 Conflicts: com.laughingquoll.noctisxi, com.repo.xarold.com.noctisxi
 Filename: ./debs/com.noctis12.deb
@@ -53,6 +37,23 @@ Description: Noctis12 - System Wide Dark Mode for iOS
 Author: LaughingQuoll
 Depiction: http://repo.xarold.com/depiction.php?id=noctis12
 Name: Noctis12
+
+Package: ayman.me.gmoran.eclipsex
+Version: 5.1.6
+Architecture: iphoneos-arm
+Maintainer: Guillermo Morán (fr0st)
+Installed-Size: 1204
+Depends: mobilesubstrate, preferenceloader, applist, com.creaturesurvive.libcscolorpicker, firmware (>= 11.0)
+Filename: ./debs/me.gmoran.eclipsex_5.1.6_iphoneos-arm.deb
+Size: 613450
+MD5sum: 250e51f7c2eefc288865b7e77af80584
+SHA1: e33962b7e53b904bb427407dee12ddfe40f72842
+SHA256: 1fcf00d4ad9f1c7146f22ada2c62a42d68c265dc895fc6362801725a5f7a7b1b
+Section: Tweaks
+Description: Night Mode (and more!) for all your apps!
+Author: Guillermo Morán (fr0st)
+Depiction: http://gmoran.me/eclipse_x_repo.html
+Name: Eclipse X (iOS 11)
 
 Package: ayman.xyz.royalapps.jellyfish
 Version: 1.0.3
