@@ -21,23 +21,6 @@ Icon: file:///Library/PreferenceBundles/ColorBanners2Prefs.bundle/ColorBanners@2
 Name: ColorBanners 2
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.repo.xarold.com.noctis12
-Version: 1.2.5.1
-Architecture: iphoneos-arm
-Maintainer: Xarold <contact@xarold.com>
-Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, com.laughingquoll.prefixui, com.repo.xarold.com.libsparkapplist | com.spark.libsparkapplist, com.opa334.ccsupport
-Conflicts: com.laughingquoll.noctisxi, com.repo.xarold.com.noctisxi
-Filename: ./debs/com.noctis12.deb
-Size: 144398
-MD5sum: 4165ab47370c4c0c98b8708853805ec4
-SHA1: 43c2c7756f6297e2bee343263b4bcbd590a62e44
-SHA256: 1c95ca7034c4dd8fe33cbec5db33e899a82bddf6641e69b9003a38f7b5ab2c93
-Section: Tweaks
-Description: Noctis12 - System Wide Dark Mode for iOS
-Author: LaughingQuoll
-Depiction: http://repo.xarold.com/depiction.php?id=noctis12
-Name: Noctis12
-
 Package: ayman.me.gmoran.eclipsex
 Version: 5.1.6
 Architecture: iphoneos-arm
